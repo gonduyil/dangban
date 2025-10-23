@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  overflow-y: auto;
+}
+.my-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 阴影加深立体感 */
+  border-radius: 12px; /* 圆角 */
+  border: 1px solid rgba(0,0,0,0.05); /* 微边框增强层次 */
+  background: #fff; /* 背景色 */
+}
+
+.my-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
